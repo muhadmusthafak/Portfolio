@@ -26,7 +26,11 @@ i:hover {
   justify-content: center;
   align-items: center;
 }
-
+@media only screen and (max-width: 540px) {
+  .svg-frame {
+    display: none;
+  }
+}
 .svg-frame svg {
   position: absolute;
   transition: .5s;
